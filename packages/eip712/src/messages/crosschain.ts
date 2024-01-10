@@ -1,4 +1,4 @@
-const MSG_SENDTOETH_TYPES = {
+export const MSG_SENDTOETH_TYPES = {
     MsgValue: [
         {name: 'sender', type: 'string'},
         {name: 'eth_dest', type: 'string'},
