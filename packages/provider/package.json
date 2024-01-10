@@ -1,0 +1,28 @@
+{
+  "name": "@treasurenet/provider",
+  "description": "Simple provider to query the Treasurenet rest api.",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "_moduleAliases": {
+    "~provider": "dist"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json && link-module-alias",
+    "clean": "tsc --build tsconfig.build.json --clean  && shx rm -rf coverage *.log junit.xml dist && jest --clearCache",
+    "test": "jest",
+    "test:unit": "jest test/unit",
+    "test:integration": "jest test/unit",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --coverage --ci --reporters='jest-junit'",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "link-module-alias": "^1.2.0",
+    "shx": "^0.3.4"
+  }
+}
