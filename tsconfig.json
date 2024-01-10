@@ -5,7 +5,9 @@
     "paths": {
         "@treasurenet/address-converter": ["./packages/address-converter/*"],
         "@treasurenet/eip712": ["./packages/eip712/*"],
-        "@treasurenet/proto": ["./packages/proto/*"]
+        "@treasurenet/proto": ["./packages/proto/*"],
+        "@treasurenet/provider": ["./packages/provider/*"],
+        "@treasurenet/transactions": ["./packages/transactions/*"]
     }
   }
 }
