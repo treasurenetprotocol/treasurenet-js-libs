@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as dependency_2 from "./../../base/v1beta1/coin";
 import * as dependency_3 from "./bank";
 import * as pb_1 from "google-protobuf";

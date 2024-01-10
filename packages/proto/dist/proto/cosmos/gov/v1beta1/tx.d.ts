@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as dependency_1 from "./../../base/v1beta1/coin";
 import * as dependency_2 from "./gov";
 import * as dependency_5 from "./../../../google/protobuf/any";

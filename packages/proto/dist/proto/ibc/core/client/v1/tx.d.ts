@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as dependency_2 from "./../../../../google/protobuf/any";
 import * as pb_1 from "google-protobuf";
 import * as grpc_1 from "@grpc/grpc-js";

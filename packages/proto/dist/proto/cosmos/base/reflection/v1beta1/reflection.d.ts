@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as pb_1 from "google-protobuf";
 import * as grpc_1 from "@grpc/grpc-js";
 export declare namespace cosmos.base.reflection.v1beta1 {

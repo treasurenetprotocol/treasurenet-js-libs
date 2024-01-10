@@ -9,6 +9,7 @@ export * from './messages/ibcMsgTransfer';
 export * from './messages/msgEthereumTx';
 export * from './messages/msgSend';
 export * from './messages/staking';
+export * from './messages/crosschain';
 export * from './messages/txRaw';
 export * from './messages/utils';
 export * from './messages/validator';

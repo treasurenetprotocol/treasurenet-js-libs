@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as dependency_2 from "./../../../../google/protobuf/any";
 import * as dependency_4 from "./../../../../tendermint/p2p/types";
 import * as dependency_5 from "./../../../../tendermint/types/block";

@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as dependency_2 from "./../../base/abci/v1beta1/abci";
 import * as dependency_3 from "./tx";
 import * as dependency_5 from "./../../base/query/v1beta1/pagination";

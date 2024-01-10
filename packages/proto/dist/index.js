@@ -25,6 +25,7 @@ __exportStar(require("./messages/ibcMsgTransfer"), exports);
 __exportStar(require("./messages/msgEthereumTx"), exports);
 __exportStar(require("./messages/msgSend"), exports);
 __exportStar(require("./messages/staking"), exports);
+__exportStar(require("./messages/crosschain"), exports);
 __exportStar(require("./messages/txRaw"), exports);
 __exportStar(require("./messages/utils"), exports);
 __exportStar(require("./messages/validator"), exports);

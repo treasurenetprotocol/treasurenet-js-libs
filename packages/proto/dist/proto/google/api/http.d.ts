@@ -100,7 +100,7 @@ export declare namespace google.api {
         set response_body(value: string);
         get additional_bindings(): HttpRule[];
         set additional_bindings(value: HttpRule[]);
-        get pattern(): "none" | "delete" | "get" | "put" | "post" | "patch" | "custom";
+        get pattern(): "get" | "put" | "post" | "delete" | "patch" | "custom" | "none";
         static fromObject(data: {
             selector?: string;
             get?: string;

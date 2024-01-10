@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as dependency_1 from "./genesis";
 import * as dependency_2 from "./types";
 import * as dependency_3 from "./msgs";

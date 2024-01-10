@@ -231,7 +231,7 @@ export declare namespace ibc.core.channel.v1 {
         get error(): string;
         set error(value: string);
         get has_error(): boolean;
-        get response(): "result" | "none" | "error";
+        get response(): "none" | "error" | "result";
         static fromObject(data: {
             result?: Uint8Array;
             error?: string;

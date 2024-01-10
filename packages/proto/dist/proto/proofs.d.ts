@@ -120,7 +120,7 @@ export declare namespace ics23 {
         get compressed(): CompressedBatchProof;
         set compressed(value: CompressedBatchProof);
         get has_compressed(): boolean;
-        get proof(): "batch" | "none" | "exist" | "nonexist" | "compressed";
+        get proof(): "none" | "exist" | "nonexist" | "batch" | "compressed";
         static fromObject(data: {
             exist?: ReturnType<typeof ExistenceProof.prototype.toObject>;
             nonexist?: ReturnType<typeof NonExistenceProof.prototype.toObject>;

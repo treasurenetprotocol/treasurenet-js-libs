@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as dependency_1 from "./../crypto/proof";
 import * as dependency_2 from "./../types/types";
 import * as dependency_3 from "./../crypto/keys";
@@ -303,7 +304,7 @@ export declare namespace tendermint.abci {
         get apply_snapshot_chunk(): RequestApplySnapshotChunk;
         set apply_snapshot_chunk(value: RequestApplySnapshotChunk);
         get has_apply_snapshot_chunk(): boolean;
-        get value(): "info" | "echo" | "flush" | "set_option" | "init_chain" | "query" | "begin_block" | "check_tx" | "deliver_tx" | "end_block" | "commit" | "list_snapshots" | "offer_snapshot" | "load_snapshot_chunk" | "apply_snapshot_chunk" | "none";
+        get value(): "none" | "commit" | "echo" | "flush" | "info" | "set_option" | "init_chain" | "query" | "begin_block" | "check_tx" | "deliver_tx" | "end_block" | "list_snapshots" | "offer_snapshot" | "load_snapshot_chunk" | "apply_snapshot_chunk";
         static fromObject(data: {
             echo?: ReturnType<typeof RequestEcho.prototype.toObject>;
             flush?: ReturnType<typeof RequestFlush.prototype.toObject>;
@@ -1033,7 +1034,7 @@ export declare namespace tendermint.abci {
         get apply_snapshot_chunk(): ResponseApplySnapshotChunk;
         set apply_snapshot_chunk(value: ResponseApplySnapshotChunk);
         get has_apply_snapshot_chunk(): boolean;
-        get value(): "info" | "echo" | "flush" | "set_option" | "init_chain" | "query" | "begin_block" | "check_tx" | "deliver_tx" | "end_block" | "commit" | "list_snapshots" | "offer_snapshot" | "load_snapshot_chunk" | "apply_snapshot_chunk" | "none" | "exception";
+        get value(): "none" | "commit" | "echo" | "flush" | "info" | "set_option" | "init_chain" | "query" | "begin_block" | "check_tx" | "deliver_tx" | "end_block" | "list_snapshots" | "offer_snapshot" | "load_snapshot_chunk" | "apply_snapshot_chunk" | "exception";
         static fromObject(data: {
             exception?: ReturnType<typeof ResponseException.prototype.toObject>;
             echo?: ReturnType<typeof ResponseEcho.prototype.toObject>;

@@ -94,7 +94,7 @@ export declare namespace cosmos.base.snapshots.v1beta1 {
         get extension_payload(): SnapshotExtensionPayload;
         set extension_payload(value: SnapshotExtensionPayload);
         get has_extension_payload(): boolean;
-        get item(): "none" | "store" | "iavl" | "extension" | "extension_payload";
+        get item(): "none" | "extension" | "store" | "iavl" | "extension_payload";
         static fromObject(data: {
             store?: ReturnType<typeof SnapshotStoreItem.prototype.toObject>;
             iavl?: ReturnType<typeof SnapshotIAVLItem.prototype.toObject>;

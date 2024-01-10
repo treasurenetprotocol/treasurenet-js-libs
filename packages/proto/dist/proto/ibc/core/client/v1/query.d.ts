@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as dependency_1 from "./../../../../cosmos/base/query/v1beta1/pagination";
 import * as dependency_2 from "./client";
 import * as dependency_3 from "./../../../../google/protobuf/any";

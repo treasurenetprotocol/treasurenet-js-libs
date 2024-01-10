@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as dependency_1 from "./../../base/query/v1beta1/pagination";
 import * as dependency_3 from "./../../../google/protobuf/any";
 import * as pb_1 from "google-protobuf";

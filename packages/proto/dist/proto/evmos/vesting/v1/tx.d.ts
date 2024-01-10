@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as dependency_3 from "./../../../google/protobuf/timestamp";
 import * as dependency_4 from "./../../../cosmos/vesting/v1beta1/vesting";
 import * as pb_1 from "google-protobuf";

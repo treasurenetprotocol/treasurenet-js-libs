@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as dependency_1 from "./../../../cosmos/base/query/v1beta1/pagination";
 import * as dependency_2 from "./../../../cosmos/base/v1beta1/coin";
 import * as dependency_3 from "./genesis";
