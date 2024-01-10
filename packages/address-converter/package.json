@@ -1,0 +1,32 @@
+{
+  "name": "@treasurenet/address-converter",
+  "version": "1.0.0-alpha",
+  "description": "A simple converter between ETH, COSMOS and TreasureNet address.",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "_moduleAliases": {
+    "~address-converter": "dist"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json && link-module-alias",
+    "clean": "tsc --build tsconfig.build.json --clean  && shx rm -rf coverage *.log junit.xml dist && jest --clearCache",
+    "test": "jest",
+    "test:unit": "jest test/unit",
+    "test:integration": "jest test/unit",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --coverage --ci --reporters='jest-junit'",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "bech32": "^2.0.0",
+    "crypto-addr-codec": "^0.1.7",
+    "link-module-alias": "^1.2.0",
+    "shx": "^0.3.4"
+  },
+  "keywords": [
+    "treasurenet"
+  ]
+}

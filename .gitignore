@@ -1,0 +1,10 @@
+node_modules/*
+.idea/*
+.vscode/*
+obfuscated/*
+dist/*
+
+./packages/address-converter/node_modules/*
+./packages/address-converter/.idea/*
+./packages/address-converter/.vscode/*
+
