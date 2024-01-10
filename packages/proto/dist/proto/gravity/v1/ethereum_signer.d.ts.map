@@ -1,0 +1,1 @@
+{"version":3,"file":"ethereum_signer.d.ts","sourceRoot":"","sources":["../../../../src/proto/gravity/v1/ethereum_signer.ts"],"names":[],"mappings":"AAOA,yBAAiB,OAAO,CAAC,EAAE,CAAC;IACxB,KAAY,QAAQ;QAChB,qBAAqB,IAAI;QACzB,8CAA8C,IAAI;QAClD,4CAA4C,IAAI;KACnD;CACJ"}

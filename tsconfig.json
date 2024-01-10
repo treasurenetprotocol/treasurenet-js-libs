@@ -3,7 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-        "@treasurenet/address-converter": ["./packages/address-converter/*"]
+        "@treasurenet/address-converter": ["./packages/address-converter/*"],
+        "@treasurenet/eip712": ["./packages/eip712/*"],
+        "@treasurenet/proto": ["./packages/proto/*"]
     }
   }
 }
