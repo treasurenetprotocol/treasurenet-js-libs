@@ -1,0 +1,27 @@
+{
+  "name": "@treasurenet/eip712",
+  "description": "EIP712 transaction creator for Treasurenet.",
+  "version": "1.0.0-alpha",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "_moduleAliases": {
+    "~eip712": "dist"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json && link-module-alias",
+    "clean": "tsc --build tsconfig.build.json --clean  && shx rm -rf coverage *.log junit.xml dist && jest --clearCache",
+    "test": "jest",
+    "test:unit": "jest test/unit",
+    "test:integration": "jest test/unit",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --coverage --ci --reporters='jest-junit'",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "link-module-alias": "^1.2.0",
+    "shx": "^0.3.4"
+  }
+}
