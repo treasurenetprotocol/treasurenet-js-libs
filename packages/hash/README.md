@@ -17,6 +17,10 @@ console.log(hash.hashMessage('test message'));
 
 //'0x3e2d111c8c52a5ef0ba64fe4d85e32a5153032367ec44aaae0a4e2d1bfb9bebd'
 
+console.log(hash.hexMessage('test message'));
+
+//'0x74657374206d657373616765'
+
 ```
 
 ----
