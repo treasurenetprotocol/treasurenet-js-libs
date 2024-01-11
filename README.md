@@ -15,6 +15,7 @@ Treasurenet proposes a solution for the critical lack of sustaining and tangible
 - https://www.npmjs.com/package/@treasurenet/provider
 - https://www.npmjs.com/package/@treasurenet/eip712
 - https://www.npmjs.com/package/@treasurenet/transactions
+- https://www.npmjs.com/package/@treasurenet/hash
 
 -----
 _treasurenet foundation 2024_
