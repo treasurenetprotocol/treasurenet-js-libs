@@ -11,6 +11,15 @@ const accounts = await window?.ethereum?.request({
 const account = accounts[0];
 
 ```
+### Get Account's Public Key with Keplr
+
+```javascript
+const cosmosChainID = 'treasurenet_8000-1' 
+
+const account = await window?.keplr?.getKey(cosmosChainID)
+const pk = Buffer.from(account.pubKey).toString('base64')
+```
+
 
 ### Get Account's Public Key with metamask
 
