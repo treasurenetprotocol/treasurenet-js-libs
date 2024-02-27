@@ -10,6 +10,13 @@ Treasurenet proposes a solution for the critical lack of sustaining and tangible
 
 # Treasurenet Javascript Libraries
 
+<a href="https://github.com/treasurenetprotocol/treasurenet-js-libs/blob/master/LICENSE">
+<img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache_2.0-blue" />
+</a>
+<img alt="npm: v9.5.1" src="https://img.shields.io/badge/npm-v9.5.1-yellow" />
+
+
+
 This tool library is used to help Nodejs (Javascript) developers easily use various functions of Treasurenet.
 
 include:
@@ -18,7 +25,7 @@ include:
 - provider : A simple provider to query the Treasurenet rest api.
 - eip712 : EIP712 transaction creator
 - transactions : Transactions generator for Treasurenet
-- hash : 
+- hash :
 
 ## Installation
 
@@ -90,6 +97,7 @@ address = COSMOS.encoder(Buffer.from("e2d61e49ff8a9d724cc54d338d8076f878ac6b71",
 - https://www.npmjs.com/package/@treasurenet/eip712
 - https://www.npmjs.com/package/@treasurenet/transactions
 - https://www.npmjs.com/package/@treasurenet/hash
+
 
 -----
 _Treasurenet Foundation 2024_
