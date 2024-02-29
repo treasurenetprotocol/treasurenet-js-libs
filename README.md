@@ -10,10 +10,8 @@ Treasurenet proposes a solution for the critical lack of sustaining and tangible
 
 # Treasurenet Javascript Libraries
 
-<a href="https://github.com/treasurenetprotocol/treasurenet-js-libs/blob/master/LICENSE">
-<img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache_2.0-blue" />
-</a>
-<img alt="npm: v9.5.1" src="https://img.shields.io/badge/npm-v9.5.1-yellow" />
+
+<a href="https://github.com/treasurenetprotocol/treasurenet-js-libs/blob/master/LICENSE"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache_2.0-blue" /></a>  <img alt="npm: v9.5.1" src="https://img.shields.io/badge/npm-v9.5.1-yellow" />
 
 
 
@@ -25,7 +23,7 @@ include:
 - provider : A simple provider to query the Treasurenet rest api.
 - eip712 : EIP712 transaction creator
 - transactions : Transactions generator for Treasurenet
-- hash :
+- hash : Convenient tool for generating hash values.
 
 ## Installation
 
@@ -40,55 +38,13 @@ include:
 
 ## Usage and Example
 
-### @treasurenet/address-converter
+- [@treasurenet/address-converter](https://github.com/treasurenetprotocol/treasurenet-js-libs/blob/master/packages/address-converter/README.md)
+- [@treasurenet/proto](https://github.com/treasurenetprotocol/treasurenet-js-libs/blob/master/packages/proto/README.md)
+- [@treasurenet/provider](https://github.com/treasurenetprotocol/treasurenet-js-libs/blob/master/packages/provider/README.md)
+- [@treasurenet/eip712](https://github.com/treasurenetprotocol/treasurenet-js-libs/blob/master/packages/eip712/README.md)
+- [@treasurenet/transactions](https://github.com/treasurenetprotocol/treasurenet-js-libs/blob/master/packages/transactions/README.md)
+- [@treasurenet/hash](https://github.com/treasurenetprotocol/treasurenet-js-libs/blob/master/packages/hash/README.md)
 
-#### Converter
-
-```javascript
-import {ethToTreasurenet, treasurenetToEth, ethToCosmos, cosmosToEth} from "@treasurenet/address-converter"
-
-let address = ethToTreasurenet("0xe2D61e49ff8a9d724CC54d338D8076F878aC6b71")
-// "treasurenet1uttpuj0l32whynx9f5ecmqrklpu2c6m3973048"
-
-let address = treasurenetToEth("treasurenet1uttpuj0l32whynx9f5ecmqrklpu2c6m3973048")
-// "0xe2D61e49ff8a9d724CC54d338D8076F878aC6b71"
-
-let address = ethToCosmos("0xe2D61e49ff8a9d724CC54d338D8076F878aC6b71");
-// "cosmos1uttpuj0l32whynx9f5ecmqrklpu2c6m37sldk9"
-
-let address = cosmosToEth("cosmos1uttpuj0l32whynx9f5ecmqrklpu2c6m37sldk9");
-// "0xe2D61e49ff8a9d724CC54d338D8076F878aC6b71"
-
-```
-
-#### Decoders
-
-```javascript
-import {ETH, TREASURENET, COSMOS} from "@treasurenet/address-converter"
-
-let hex = ETH.decoder("0xe2D61e49ff8a9d724CC54d338D8076F878aC6b71")
-// hex.toString('hex') === "e2d61e49ff8a9d724cc54d338d8076f878ac6b71"
-
-hex = TREASURENET.decoder("treasurenet1uttpuj0l32whynx9f5ecmqrklpu2c6m3973048")
-// hex.toString('hex') === "e2d61e49ff8a9d724cc54d338d8076f878ac6b71"
-
-hex = COSMOS.decoder("cosmos1uttpuj0l32whynx9f5ecmqrklpu2c6m37sldk9");
-// hex.toString('hex') === "e2d61e49ff8a9d724cc54d338d8076f878ac6b71"
-```
-#### Encoders
-
-```javascript
-import {ETH, TREASURENET, COSMOS} from "@treasurenet/address-converter"
-
-let address = ETH.encoder(Buffer.from("e2d61e49ff8a9d724cc54d338d8076f878ac6b71", "hex"))
-// address === "0xe2D61e49ff8a9d724CC54d338D8076F878aC6b71"
-
-address = TREASURENET.encoder(Buffer.from("e2d61e49ff8a9d724cc54d338d8076f878ac6b71", "hex"))
-// address === "treasurenet1uttpuj0l32whynx9f5ecmqrklpu2c6m3973048"
-
-address = COSMOS.encoder(Buffer.from("e2d61e49ff8a9d724cc54d338d8076f878ac6b71", "hex"))
-// address === "cosmos1uttpuj0l32whynx9f5ecmqrklpu2c6m37sldk9"
-```
 ## npmjs.com
 
 - https://www.npmjs.com/package/@treasurenet/address-converter
