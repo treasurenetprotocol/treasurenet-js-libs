@@ -4,6 +4,7 @@ examples/node_modules
 reports
 junit.xml
 dist
+*/*/dist
 .build-cache
 .DS_STORE
 *.iws
