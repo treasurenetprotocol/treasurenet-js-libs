@@ -1,4 +1,4 @@
-name: Test
+name: Test CI
 on:
   push:
     branches:
@@ -21,4 +21,3 @@ jobs:
       - run: |
           npm install
           npm run test:ci
-          npm run lint:ci

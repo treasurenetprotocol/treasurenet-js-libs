@@ -5,6 +5,8 @@ reports
 junit.xml
 dist
 */*/dist
+package-lock.json
+*/*/package-lock.json
 .build-cache
 .DS_STORE
 *.iws
