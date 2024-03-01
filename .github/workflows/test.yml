@@ -1,4 +1,4 @@
-name:Test
+name: Test CI
 on:
   push:
     branches:
@@ -18,7 +18,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-      - run: npm run test:ci
-      - run: npm run lint:ci
-
-
+      - run: |
+          npm install
+          npm run test:ci

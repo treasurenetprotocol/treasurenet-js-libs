@@ -1,6 +1,6 @@
 {
   "name": "@treasurenet/address-converter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple converter between ETH, COSMOS and TreasureNet address.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
