@@ -1,7 +1,7 @@
 {
   "name": "@treasurenet/transactions",
   "description": "Transactions generator for Treasurenet",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,8 +22,8 @@
     "coverage": "jest --coverage"
   },
   "dependencies": {
-    "@treasurenet/eip712": "^1.0.1",
-    "@treasurenet/proto": "^1.0.1",
+    "@treasurenet/eip712": "^1.0.2",
+    "@treasurenet/proto": "^1.0.2",
     "@types/node": "^17.0.21",
     "link-module-alias": "^1.2.0",
     "shx": "^0.3.4"
