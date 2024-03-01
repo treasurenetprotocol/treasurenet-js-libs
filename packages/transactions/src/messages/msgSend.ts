@@ -1,7 +1,7 @@
 import {
   createMsgSend as protoMsgSend,
   createTransaction,
-} from '@treasurenet/proto'
+} from '../../../proto'
 
 import {
   createEIP712,
@@ -10,7 +10,7 @@ import {
   generateTypes,
   createMsgSend,
   MSG_SEND_TYPES,
-} from '@treasurenet/eip712'
+} from '../../../eip712'
 
 import { Chain, Fee, Sender } from './common'
 
