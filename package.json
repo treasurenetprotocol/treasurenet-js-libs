@@ -37,6 +37,10 @@
       "yarn format:md"
     ]
   },
+  "engines": {
+    "node": ">=22 <23",
+    "npm": ">=10"
+  },
   "devDependencies": {
     "@commitlint/cli": "^16.2.0",
     "@commitlint/config-conventional": "^16.2.1",
