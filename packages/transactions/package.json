@@ -29,7 +29,7 @@
     "shx": "^0.3.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.2",
+    "@babel/core": "^7.29.6",
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-typescript": "^7.17.12",
     "@metamask/eth-sig-util": "^4.0.1",
